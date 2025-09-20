@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Gilroy', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+#main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+#nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 50px;
+}
+
+#left{
+    height: 90%;
+    width: 36%;
+    /* padding: 20px 30px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#topl{
+    height: 65%;
+    width: 100%;
+    /* background-color: rgb(228, 238, 23); */
+}
+
+#topl h1{
+    font-size: 9.47vw;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: black;
+    line-height: 9vw;
+    padding: 10px 0px;
+    letter-spacing: 0px;
+}
+
+#middlel{
+    height: 5%;
+    width: fit-content;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+#middlel p{
+    font-size: normal;
+    font-weight: 200;
+    font-family:sans;
+    color: black;
+    padding: 9px 10px;
+    
+}
+
+#c1{
+    height: 15px;
+    width: 15px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    margin: 11px 5px;
+    border: 0.9px solid black;
+}
+
+#c2{
+    height: 15px;
+    width: 15px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 11px 5px;
+    border: 0.9px solid black;
+}
+
+#bottoml{
+    height: 30%;
+    width: 100%;
+}
+
+#bottoml h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    font-family: work-sans;
+    color: black;
+    padding: 15px 10px 0px 0px;
+    line-height: 2vw;
+    margin: 5px 10px;
+}
+
+#bottoml p{
+    font-size: 1vw;
+    font-weight: 300;
+    font-family:  work-sans;
+    color: black;
+    line-height: 1.3vw;
+    margin: 0px 10px;
+}   
+
+#right{
+    height: 80%;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#top{
+    height: 15%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+ 
+#top h3{
+    font-size: 1.5vw;
+    font-weight: 300;
+    font-family: 'Gilroy', sans-serif;
+    color: black;
+    margin-top:50px;
+    line-height: 2vw;
+    
+}
+
+#rating {
+    font-size: 13.7px;
+    font-weight: 200;
+    margin-top: 60px;
+    margin-right: 40px;
+    font-family: 'Gilroy', sans-serif;
+    color: black;
+    line-height: 1.3vw;
+}
+#rating i {
+    color: gold;
+    font-size: 20px;
+}
+
+
+#poster{
+    height: 85%;
+    width: 100%;
+    background-color: #666;
+}
+
+#poster img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    right: 5.3%;
+    height:150px;
+    width:150px;
+    font-style: italic;
+    font-size: 1.25vw;
+    font-weight: 300px;
+    font-family: sans;
+    background-color: #777;
+    border-radius: 50%;
+    color: white;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#icon video{
+    position: absolute;
+    height: 140%;
+    width: 100%;
+    opacity: 0.3;
+    object-fit: fill;
+}
+
+#icon-hover .h5{
+    opacity: 0;
+}
+
+@font-face {
+  font-family: 'Scriptina';
+  src: url('fonts/Scriptina.ttf') format('truetype');
+}
+
+
+#text{
+    position: absolute;
+    width: fit-content;
+    right: 30%;
+    top: 70%;
+    font-family: 'Scriptina',cursive;
+    font-size: 35px;
+    font-weight:400px;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    color:#e37272;
+    rotate: -90deg;
+}
+
